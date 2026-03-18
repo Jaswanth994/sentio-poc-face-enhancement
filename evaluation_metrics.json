@@ -1,0 +1,1718 @@
+{
+  "source": "p4_face_enhancement",
+  "total_faces_processed": 100,
+  "processing_time_sec": 27.64,
+  "pipeline_stages_applied": [
+    "denoise",
+    "clahe",
+    "upscale_multistep",
+    "zone_sharpen"
+  ],
+  "recognition_accuracy_before_pct": 1.0,
+  "recognition_accuracy_after_pct": 4.0,
+  "avg_sharpness_before": 579.53,
+  "avg_sharpness_after": 7.8,
+  "avg_ssim_improvement": 0.7135,
+  "per_face": [
+    {
+      "filename": "face_001.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 381.49,
+      "sharpness_after": 6.98,
+      "ssim_improvement": 0.7483,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_002.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 751.0,
+      "sharpness_after": 7.8,
+      "ssim_improvement": 0.7738,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_003.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 679.47,
+      "sharpness_after": 8.22,
+      "ssim_improvement": 0.6999,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_004.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 636.93,
+      "sharpness_after": 8.08,
+      "ssim_improvement": 0.7239,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_005.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 726.94,
+      "sharpness_after": 7.85,
+      "ssim_improvement": 0.7415,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_006.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 737.96,
+      "sharpness_after": 7.81,
+      "ssim_improvement": 0.7417,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_007.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 680.07,
+      "sharpness_after": 7.81,
+      "ssim_improvement": 0.7402,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_008.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 1009.83,
+      "sharpness_after": 9.02,
+      "ssim_improvement": 0.6969,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_009.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 690.67,
+      "sharpness_after": 8.06,
+      "ssim_improvement": 0.723,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_010.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 493.44,
+      "sharpness_after": 7.4,
+      "ssim_improvement": 0.7533,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_011.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 446.05,
+      "sharpness_after": 7.19,
+      "ssim_improvement": 0.7471,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_012.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 534.35,
+      "sharpness_after": 7.79,
+      "ssim_improvement": 0.715,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_013.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 528.65,
+      "sharpness_after": 7.81,
+      "ssim_improvement": 0.6939,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_014.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 804.66,
+      "sharpness_after": 8.42,
+      "ssim_improvement": 0.7105,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_015.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 433.26,
+      "sharpness_after": 7.43,
+      "ssim_improvement": 0.7223,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_016.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 1005.46,
+      "sharpness_after": 8.55,
+      "ssim_improvement": 0.7282,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_017.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 559.24,
+      "sharpness_after": 8.05,
+      "ssim_improvement": 0.6935,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_018.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 519.27,
+      "sharpness_after": 7.94,
+      "ssim_improvement": 0.5966,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_019.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 664.66,
+      "sharpness_after": 8.02,
+      "ssim_improvement": 0.7102,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_020.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 585.7,
+      "sharpness_after": 7.61,
+      "ssim_improvement": 0.7375,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_021.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 691.48,
+      "sharpness_after": 7.79,
+      "ssim_improvement": 0.7633,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_022.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 628.83,
+      "sharpness_after": 7.79,
+      "ssim_improvement": 0.7543,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_023.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 471.18,
+      "sharpness_after": 7.5,
+      "ssim_improvement": 0.7136,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_024.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 363.85,
+      "sharpness_after": 7.6,
+      "ssim_improvement": 0.6749,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_025.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 589.69,
+      "sharpness_after": 7.86,
+      "ssim_improvement": 0.7106,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_026.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 679.16,
+      "sharpness_after": 8.05,
+      "ssim_improvement": 0.7253,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_027.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 632.52,
+      "sharpness_after": 8.0,
+      "ssim_improvement": 0.7239,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_028.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 816.3,
+      "sharpness_after": 8.41,
+      "ssim_improvement": 0.7386,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_029.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 762.02,
+      "sharpness_after": 6.82,
+      "ssim_improvement": 0.7585,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_030.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 624.55,
+      "sharpness_after": 6.47,
+      "ssim_improvement": 0.7555,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_031.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 507.59,
+      "sharpness_after": 7.79,
+      "ssim_improvement": 0.7044,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_032.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 598.05,
+      "sharpness_after": 8.17,
+      "ssim_improvement": 0.679,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_033.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 617.8,
+      "sharpness_after": 8.35,
+      "ssim_improvement": 0.6918,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_034.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 446.32,
+      "sharpness_after": 7.66,
+      "ssim_improvement": 0.7176,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_035.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 591.7,
+      "sharpness_after": 7.76,
+      "ssim_improvement": 0.7468,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_036.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 286.69,
+      "sharpness_after": 7.39,
+      "ssim_improvement": 0.6264,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_037.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 284.99,
+      "sharpness_after": 7.0,
+      "ssim_improvement": 0.6081,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_038.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 564.64,
+      "sharpness_after": 7.63,
+      "ssim_improvement": 0.7143,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_039.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 298.8,
+      "sharpness_after": 7.5,
+      "ssim_improvement": 0.6622,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_040.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 448.86,
+      "sharpness_after": 6.95,
+      "ssim_improvement": 0.718,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_041.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 542.62,
+      "sharpness_after": 7.38,
+      "ssim_improvement": 0.7772,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_042.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 609.55,
+      "sharpness_after": 7.53,
+      "ssim_improvement": 0.762,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Harshita"
+    },
+    {
+      "filename": "face_043.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 560.88,
+      "sharpness_after": 8.3,
+      "ssim_improvement": 0.6414,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_044.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 537.77,
+      "sharpness_after": 8.21,
+      "ssim_improvement": 0.6516,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "Rohini"
+    },
+    {
+      "filename": "face_045.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 533.2,
+      "sharpness_after": 8.05,
+      "ssim_improvement": 0.6451,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_046.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 569.22,
+      "sharpness_after": 8.16,
+      "ssim_improvement": 0.6928,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_047.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 438.6,
+      "sharpness_after": 7.54,
+      "ssim_improvement": 0.6966,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_048.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 532.76,
+      "sharpness_after": 7.89,
+      "ssim_improvement": 0.709,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_049.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 657.02,
+      "sharpness_after": 8.27,
+      "ssim_improvement": 0.6965,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_050.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 542.8,
+      "sharpness_after": 8.01,
+      "ssim_improvement": 0.6775,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_051.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 714.8,
+      "sharpness_after": 8.7,
+      "ssim_improvement": 0.6667,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_052.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 562.24,
+      "sharpness_after": 7.85,
+      "ssim_improvement": 0.7055,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_053.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 625.23,
+      "sharpness_after": 8.36,
+      "ssim_improvement": 0.653,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_054.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 590.07,
+      "sharpness_after": 8.15,
+      "ssim_improvement": 0.6908,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_055.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 520.83,
+      "sharpness_after": 7.95,
+      "ssim_improvement": 0.6755,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_056.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 570.36,
+      "sharpness_after": 8.16,
+      "ssim_improvement": 0.6548,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_057.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 597.67,
+      "sharpness_after": 8.06,
+      "ssim_improvement": 0.6846,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_058.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 273.05,
+      "sharpness_after": 6.82,
+      "ssim_improvement": 0.7097,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_059.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 429.84,
+      "sharpness_after": 7.9,
+      "ssim_improvement": 0.6599,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_060.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 573.99,
+      "sharpness_after": 8.02,
+      "ssim_improvement": 0.6984,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_061.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 542.16,
+      "sharpness_after": 7.72,
+      "ssim_improvement": 0.7103,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_062.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 394.24,
+      "sharpness_after": 7.27,
+      "ssim_improvement": 0.7155,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_063.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 388.25,
+      "sharpness_after": 6.94,
+      "ssim_improvement": 0.7272,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_064.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 373.73,
+      "sharpness_after": 7.13,
+      "ssim_improvement": 0.7106,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_065.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 490.13,
+      "sharpness_after": 8.17,
+      "ssim_improvement": 0.6641,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_066.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 402.65,
+      "sharpness_after": 7.52,
+      "ssim_improvement": 0.7176,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_067.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 492.39,
+      "sharpness_after": 7.61,
+      "ssim_improvement": 0.7224,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_068.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 426.43,
+      "sharpness_after": 7.63,
+      "ssim_improvement": 0.6731,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_069.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 502.36,
+      "sharpness_after": 7.25,
+      "ssim_improvement": 0.7463,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_070.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 645.81,
+      "sharpness_after": 8.08,
+      "ssim_improvement": 0.7579,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_071.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 589.65,
+      "sharpness_after": 7.59,
+      "ssim_improvement": 0.7542,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_072.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 716.85,
+      "sharpness_after": 7.96,
+      "ssim_improvement": 0.7434,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_073.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 611.11,
+      "sharpness_after": 7.4,
+      "ssim_improvement": 0.7689,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_074.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 559.44,
+      "sharpness_after": 7.3,
+      "ssim_improvement": 0.7704,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_075.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 467.69,
+      "sharpness_after": 7.3,
+      "ssim_improvement": 0.7414,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_076.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 562.87,
+      "sharpness_after": 6.37,
+      "ssim_improvement": 0.7491,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_077.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 747.07,
+      "sharpness_after": 8.43,
+      "ssim_improvement": 0.7052,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "Jahanvi"
+    },
+    {
+      "filename": "face_078.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 550.34,
+      "sharpness_after": 7.61,
+      "ssim_improvement": 0.7585,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_079.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 813.68,
+      "sharpness_after": 8.75,
+      "ssim_improvement": 0.7008,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_080.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 769.31,
+      "sharpness_after": 8.92,
+      "ssim_improvement": 0.6959,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_081.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 687.42,
+      "sharpness_after": 8.27,
+      "ssim_improvement": 0.7121,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_082.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 627.6,
+      "sharpness_after": 8.14,
+      "ssim_improvement": 0.705,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_083.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 373.7,
+      "sharpness_after": 7.08,
+      "ssim_improvement": 0.7479,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_084.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 379.32,
+      "sharpness_after": 7.36,
+      "ssim_improvement": 0.7387,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_085.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 817.39,
+      "sharpness_after": 8.32,
+      "ssim_improvement": 0.7275,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_086.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 601.38,
+      "sharpness_after": 7.66,
+      "ssim_improvement": 0.759,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_087.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 1286.48,
+      "sharpness_after": 9.67,
+      "ssim_improvement": 0.7111,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_088.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 752.64,
+      "sharpness_after": 8.57,
+      "ssim_improvement": 0.684,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_089.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 666.78,
+      "sharpness_after": 8.02,
+      "ssim_improvement": 0.7432,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_090.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 459.23,
+      "sharpness_after": 7.2,
+      "ssim_improvement": 0.7837,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_091.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 510.97,
+      "sharpness_after": 7.82,
+      "ssim_improvement": 0.6844,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_092.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 537.05,
+      "sharpness_after": 7.96,
+      "ssim_improvement": 0.7158,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_093.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 597.08,
+      "sharpness_after": 8.01,
+      "ssim_improvement": 0.6853,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_094.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 545.74,
+      "sharpness_after": 8.05,
+      "ssim_improvement": 0.6823,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_095.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 534.58,
+      "sharpness_after": 7.15,
+      "ssim_improvement": 0.7433,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_096.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 544.97,
+      "sharpness_after": 7.28,
+      "ssim_improvement": 0.743,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_097.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 561.95,
+      "sharpness_after": 7.63,
+      "ssim_improvement": 0.7291,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_098.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 663.93,
+      "sharpness_after": 7.83,
+      "ssim_improvement": 0.7559,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_099.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 546.27,
+      "sharpness_after": 7.6,
+      "ssim_improvement": 0.7296,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_100.jpg",
+      "original_size_px": [
+        32,
+        32
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 456.24,
+      "sharpness_after": 7.86,
+      "ssim_improvement": 0.7046,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    }
+  ]
+}
